@@ -34,7 +34,7 @@ const ContactForm = () => {
           </Col>
         </Row>
       )}
-      <Row className="w-100 mb-4">
+      <Row className="w-100 mb-4" style={{ paddingLeft: 20 }}>
         <Col md={{ size: 8, offset: 2 }}>
           <Form onSubmit={handleSubmit} className="mt-3">
             <FormGroup row>
