@@ -1,0 +1,28 @@
+.Body {
+  background-color: #201f1f;
+  color: #ffffff;
+}
+
+.Body-title {
+  font-size: 4rem;
+}
+
+.Body-description {
+  font-size: 1.6rem;
+}
+
+.Body-button {
+  padding: 1rem;
+  /* height: 3rem; */
+  /* width: 10rem; */
+  font-size: 2.5rem;
+  background-color: #201f1f;
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  cursor: pointer;
+}
+
+.Body-button:hover {
+  background-color: #555555;
+  color: white;
+}
