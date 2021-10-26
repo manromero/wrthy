@@ -7,7 +7,7 @@ const Body = () => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => setModal(!modal);
   return (
-    <div className="Body">
+    <div className="Body" id="body">
       <Row style={{ width: "100%", margin: 0 }}>
         <Col md="7" sm="12" xs="12" style={{ paddingLeft: 20, marginTop: 20, paddingRight: 20 }} className="pb-4">
           <h2 className="Body-title mb-5">Wrthy, tu coach inteligente</h2>

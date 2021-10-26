@@ -6,7 +6,7 @@ import { Row, Col } from "reactstrap";
 
 const Objectives = () => {
   return (
-    <Row style={{ width: "100%", margin: 0 }} className="mt-4">
+    <Row id="objectives" style={{ width: "100%", margin: 0 }} className="mt-4">
       <Col md="2" sm={{ size: 12, order: 1 }} xs={{ size: 12, order: 2 }} style={{ padding: 20 }}>
         <img src={about_you} alt="Ejercicio" width="700" style={{ objectFit: "cover", height: "100%", width: "100%" }} />
       </Col>

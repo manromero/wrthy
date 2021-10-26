@@ -8,7 +8,7 @@ const Rates = () => {
 
   return (
     <>
-      <Row style={{ width: "100%", margin: 0, backgroundColor: "#201f1f", color: "white", paddingBottom: 30 }} className="mt-4 justify-content-around">
+      <Row id="rates" style={{ width: "100%", margin: 0, backgroundColor: "#201f1f", color: "white", paddingBottom: 30 }} className="mt-4 justify-content-around">
         <Col md="12" sm="12" xs="12" style={{ paddingLeft: 50, marginTop: 20, paddingRight: 50 }} className="pb-4 justify-content-md-center">
           <h2 className="Body-title mb-5 text-center pt-5">¡Tarifas ajustadas a ti!</h2>
           <p className="Body-description mt-5 mb-5 text-center">Disfruta de un mes gratis de prueba para poner a prueba tu coach inteligente y elige la tarifa que más se ajuste a ti</p>
