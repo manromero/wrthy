@@ -19,6 +19,7 @@ const ContactForm = () => {
       setEmail("");
       setMessage("");
     }
+    // eslint-disable-next-line
   }, [state.submitting]);
 
   return (
