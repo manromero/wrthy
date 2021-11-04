@@ -8,7 +8,7 @@ const EDetail = () => {
   return (
     <Row id="eDetail" style={{ width: "100%", margin: 0, backgroundColor: "#201f1f", color: "white" }} className="mt-4">
       <Col md="6" sm="12" xs="12" style={{ paddingLeft: 50, marginTop: 20, paddingRight: 50 }} className="pb-4 justify-content-md-center">
-        <h2 className="Body-title mb-5 text-center pt-5">¡Mejora Contínua!</h2>
+        <h2 className="Body-title mb-5 text-center pt-5">¡Mejora contínua!</h2>
         <p className="Body-description mt-5 mb-5 text-center">Aprende a realizar los ejercicios correctamente, evita lesiones, y sácale el mejor partido al ejercicio.</p>
         <p className="Body-description mt-5 mb-5 text-center">El coach cuenta con tu opinión para ofrecerte los ejercicios que más se ajustan a ti</p>
       </Col>
