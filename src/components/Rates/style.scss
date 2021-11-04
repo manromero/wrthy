@@ -1,0 +1,38 @@
+@mixin default-rate($color) {
+  padding: 20;
+  border: 3px;
+  border-style: solid;
+  cursor: pointer;
+  border-color: $color;
+  color: $color;
+}
+
+.gold-rate {
+  @include default-rate($color: #dbd346);
+}
+
+.gold-rate:hover {
+  background-color: #dbd346;
+  font-weight: bold;
+  color: #201f1f;
+}
+
+.platinium-rate {
+  @include default-rate($color: #d5d5d5);
+}
+
+.platinium-rate:hover {
+  background-color: #d5d5d5;
+  font-weight: bold;
+  color: #201f1f;
+}
+
+.diamont-rate {
+  @include default-rate($color: #91e5ff);
+}
+
+.diamont-rate:hover {
+  background-color: #91e5ff;
+  font-weight: bold;
+  color: #201f1f;
+}
