@@ -21,7 +21,7 @@ const Body = () => {
             </Col>
             <Col md="4" sm="12" xs="12">
               <button className="Body-button mt-4" onClick={toggleModal}>
-                Play Store
+                App Store
               </button>
             </Col>
           </Row>
