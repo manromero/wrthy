@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: wrthy_pro
+    image: manromero/wrthy_pro
+    build:
+      context: .
+      dockerfile: Dockerfile.pro
+      target: production
+    ports:
+      - 80:80

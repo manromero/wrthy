@@ -1,3 +1,35 @@
+# Running docker
+
+You can run it manually or via docker.
+
+## Development
+
+Create image:
+
+`docker build -f Dockerfile.dev . -t manromero/wrthy_dev`
+
+Run with docker run:
+
+`docker run -d -p 3000:3000 --name=wrthy_dev manromero/wrthy_dev`
+
+Run with docker componse:
+
+`docker-compose -f docker-compose.dev.yml up -d`
+
+## Production:
+
+Create image:
+
+`docker build -f Dockerfile.pro . -t manromero/wrthy_pro`
+
+Run with docker run:
+
+`docker run -d -p 80:80 --name=wrthy_pro manromero/wrthy_pro`
+
+Run with docker componse:
+
+`docker-compose -f docker-compose.pro.yml up -d`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
