@@ -12,7 +12,7 @@ Run with docker run:
 
 `docker run -d -p 3000:3000 --name=wrthy_dev manromero/wrthy_dev`
 
-Run with docker componse:
+Run with docker compose:
 
 `docker-compose -f docker-compose.dev.yml up -d`
 
@@ -26,7 +26,7 @@ Run with docker run:
 
 `docker run -d -p 80:80 --name=wrthy_pro manromero/wrthy_pro`
 
-Run with docker componse:
+Run with docker compose:
 
 `docker-compose -f docker-compose.pro.yml up -d`
 
